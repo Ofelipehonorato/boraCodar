@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --bkg--body: #D9CDF7;
+  --font-family-title:'Crimson Pro', serif;
+  --font-famyli-text: 'Lato', sans-serif;
+  --font-color: #271A45;
+}
+
+body {
+  background-color: var(--bkg--body);
+  margin: auto;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 250px;
+  width: 775px;
+  margin: 250px auto;
+  align-items: center;
+  box-shadow: 0px 0px 15px 2px #271A45;
+  border-radius: 10px;
+  padding: 14px;
+}
+.icon360{
+  float: right;
+  cursor: pointer;
+  width: 26px;
+  box-sizing: border-box;
+}
+
+.iconX{
+  display: none;
+  width: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.sofagif{
+  height: 222px;
+  width: 449px;
+}
+
+.description{
+  color: var(--font-color);
+  padding-left: 15px;
+}
+
+.description p{
+  font-family: var(--font-famyli-text);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.description h1{
+  font-family: var(--font-family-title);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 12px;
+  line-height: 100%;
+}
+
+.description h3 {
+  font-family: var(--font-famyli-text);
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.description a {
+  font-family: var(--font-famyli-text);
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  padding: 8px 16px;
+  width: 148px;
+  height: 32px;
+  border: 1px solid #271A45;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.7s;
+}
+
+.description a:hover {
+  background-color: #271A45;
+  color: var(--bkg--body);
+}
